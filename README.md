@@ -8,7 +8,8 @@ It is primarily used as a router and firewall software and is frequently set up 
 
 
 **Installing pfSense**
-In this repo, i will demonstrate how to set up pfsense for your home lab. This whole process will be set up on a virtual box and i will be using Ubuntu as the admin system and configuring the pfsense.
+In this repo, i will demonstrate how to set up pfsense for your home lab. This whole process will be set up on a virtual box and i will be using Ubuntu as the admin system and configuring the pfsense. 
+In this repo, i will create rules in the firewall, configure VPN and monitor the rules. 
 
 Requirements : 
 1. Virtual box 
@@ -68,6 +69,15 @@ D
     ![image](https://github.com/srisowmya2000/pfsensefirewall/assets/59259117/558bec73-f08d-4adc-926b-5393a6ffa5e8)
 
 23. Now We will go to the Ubuntu machine and and do the rest of the configuration.
+
+
+**Ubuntu: **
+1. Make sure Ubuntu system adapter 1 is connected to the Internal network (LAN)
+2. Check the IP address by using the command <ip a>
+3. Open the browser and use the firewall IP address of the LAN.
+4. By using default credentials of pfsense login into the system.
+   ![image](https://github.com/srisowmya2000/pfsensefirewall/assets/59259117/3d4a34cf-7557-4929-b0e9-bc826a59b8fb)
+
 
 
 
