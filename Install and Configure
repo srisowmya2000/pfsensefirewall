@@ -1,11 +1,1 @@
-Installing pfSense
-For this repo, i will be using Virtual Box which i have already installed and i will also use Ubuntu VM to connect to the pFsense. 
 
-Requirements : 
-1. Virtual box 
-2. Ubuntu installed on the virtual box. 
-3.pFsense ISO image
-
-Process: 
-1. We need an ISO image for the virtual box. pfSense ISO image can be downloaded from the official page - https://www.pfsense.org/download/
-2. Select appropriate architecture. 
